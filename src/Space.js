@@ -56,13 +56,9 @@ import {
 
     return (
 
-  
-
       <HuddleClientProvider value={huddleClient}>
       <div className="App grid grid-cols-2">
         
-          
-
         <div>
           <div className="card">
             <button onClick={handleJoin}>Join Twitter Space</button>
@@ -78,7 +74,7 @@ import {
               allowAllLobbyPeersToJoinRoom()
             </button> */}
           </div>
-          {isCamPaused && (
+          {!isCamPaused && (
             <video
               style={{ width: "50%" }}
               ref={videoRef}

@@ -1,6 +1,6 @@
-export const contractAddress = "0x15c403E8C5f37DF3A5B837CFcc241D6D9571F5ad" // Polygon
-// export const contractAddress = "0xd9a5D032323A2168A7a4C6F88a8fe89b25fE69D8" // OLD
-// export const contractAddress = "0x2452d890C82DCD63ff97De35AA1a4792d496F77c" // Rinkeby
+// export const contractAddress = "0xd106daEEC50707EEd579F5c3B262fcDB0bfDFC63" // FVM contract
+export const contractAddress = "0x15c403E8C5f37DF3A5B837CFcc241D6D9571F5ad" // Polygon 
+
 export const ABI = [
 	{
 		"inputs": [
