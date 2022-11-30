@@ -7,6 +7,7 @@ import {AppContext} from './Context/AppContext'
 
 import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import ProfileUpload from './UploadProfile/ProfileUpload';
+import Space from './Space.js';
 
 
 function App() {
@@ -66,6 +67,11 @@ function App() {
                 <Route path='/ProfileUpload'>
 
                   <ProfileUpload/>
+                </Route>
+
+                <Route path='/Space'>
+
+                <Space/>
                 </Route>
 
                 </Switch>

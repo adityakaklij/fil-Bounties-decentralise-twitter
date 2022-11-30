@@ -23,6 +23,11 @@ function Sidebar() {
         <SidebarOption active Icon={TwitterIcon}  text="Home" />
         </a>
         <SidebarOption Icon={TagIcon} text="Explore" />
+        
+        <a href="/Space">
+          <SidebarOption Icon={TagIcon} text="Space" />
+        </a>
+
         <SidebarOption Icon={NotificationsIcon} text="Notification" />
         <SidebarOption Icon={MessageIcon} text="Message" />
         <SidebarOption Icon={BookmarkIcon} text="Bookmarks"/>
